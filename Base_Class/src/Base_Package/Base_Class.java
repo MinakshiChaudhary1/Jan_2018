@@ -11,7 +11,7 @@ public class Base_Class {
 	driver=new ChromeDriver();
 	
 	driver.get("https://www.youtube.com/");
-	driver.manage().window().maximize();
+	//driver.manage().window().maximize();
 	}
 
 		public void Method3()

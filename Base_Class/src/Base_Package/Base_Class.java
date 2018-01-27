@@ -13,8 +13,7 @@ public class Base_Class {
 	driver.get("https://www.youtube.com/");
 	driver.manage().window().maximize();
 	}
-	
-	//@AfterMethod
+
 		public void Method3()
 		{
 			driver.close();
